@@ -1,0 +1,203 @@
+body {
+  overflow-x: hidden;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  /* min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  width: auto !important;
+}
+header .first {
+  left: -100px !important;
+}
+header .second {
+  left: -700px;
+}
+header .dropdown-menu .dropdown-item a {
+  color: #000;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  z-index: 10000;
+}
+.dropdown-item ul li {
+  margin-top: 20px;
+  font-size: 16px;
+}
+.bord {
+  border-top: 2px solid black;
+}
+.nav-item i {
+  margin-right: 10px;
+  margin-top: 10px !important;
+}
+.hvr-underline-from-left:before {
+  background: #479ec1 !important;
+  height: 1px !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black !important;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.navbar ul li {
+  margin: 10px;
+}
+.navbar ul li a {
+  font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #479ec1 !important;
+}
+header .first {
+  left: -200px !important;
+}
+.ordr .bord {
+  border: 1px solid #707070;
+}
+.ordr .dowm {
+  border-bottom: 1px solid #707070;
+  border-radius: none;
+}
+.ordr .nav-pills .nav-link.active {
+  background-color: transparent;
+  color: #706e6e;
+
+  font-size: 17px;
+}
+.ordr .nav-pills .nav-link {
+  color: #706e6e;
+  padding: 14px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.ordr .card {
+  border: none;
+  background-color: transparent;
+}
+.ordr .card-header {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 5px;
+}
+.ordr .conect h5 {
+  font-family: initial;
+  font-style: italic;
+  color: #479ec1;
+}
+.ordr .shiping p {
+  color: #706e6e;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.ordr .card .btn-link {
+  color: #747171;
+  font-size: 19px;
+}
+.ordr .card .btn-link:hover {
+  text-decoration: none;
+}
+.ordr .card .btn-link {
+  text-decoration: none;
+}
+.ordr .card .btn:focus {
+  box-shadow: none;
+}
+.ordr .information p {
+  font-size: 18px;
+  color: #706e6e;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ordr .information ul li {
+  color: #706e6e;
+  margin-top: 10px;
+}
+.ordr .information td {
+  color: #706e6e;
+  font-size: 17px;
+}
+.ordr .policy p {
+  color: #706e6e;
+}
+.ordr .terms p {
+  color: #706e6e;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.ordr .policy ul li {
+  color: #706e6e;
+  margin-top: 10px;
+  font-size: 17px;
+}
+.ordr .conect button {
+  border: none;
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+  transition: 800ms;
+  padding: 20px;
+}
+.ordr .special a {
+  text-decoration: none;
+  color: #000;
+}
+.ordr .conect button:hover {
+  background-color: transparent;
+  color: #000;
+}
+.footer {
+  background-color: #efefef;
+}
+.footer .caption {
+  width: 60%;
+}
+.footer .caption p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.form-control {
+  color: #000 !important;
+  background-color: transparent;
+  border: none !important;
+  border-radius: 0rem;
+  border-bottom: 1px solid #d2d2d2 !important;
+}
+.form-control:focus {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+.footer button {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #000;
+}
+.footer .face {
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.footer .face i {
+  margin-top: 16px;
+  font-size: 17px;
+  color: #707070;
+}
+.footer .face:hover i {
+  color: #000;
+}
+.footer .caption .copy {
+  margin-top: 20px;
+  color: #707070;
+  font-size: 14px;
+}

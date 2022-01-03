@@ -1,0 +1,43 @@
+.main {
+  background-image: url(../images/bg-404_1.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+}
+.error h1 {
+  font-size: 350px;
+  line-height: 328px;
+  color: #fff;
+}
+.error h3 {
+  margin-top: 30px;
+  font-size: 50px;
+  line-height: 1.2px;
+  color: #fff;
+}
+.error p {
+  font-size: 25px;
+  line-height: 1.5px;
+  color: #fff;
+  margin-top: 70px;
+}
+.error button {
+  margin-top: 30px;
+  padding: 15px 50px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  transition: 800ms;
+}
+.error a {
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+  transition: 800ms;
+}
+.error button:hover {
+  background-color: black;
+  border: 1px solid black;
+}
+.error button:hover a {
+  color: #fff;
+}
